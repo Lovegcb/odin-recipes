@@ -72,6 +72,8 @@ button {
     padding: 10px 25px;
     background-color:antiquewhite;
     border-color: rgb(238, 183, 119);
+    font-style: oblique;
+    font-weight: 600;
 }
 
 button:hover {
