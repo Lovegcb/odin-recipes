@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+    background-image: url(../image/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgb(36, 55, 73);
+    
+}
+
+body{
+    background-color: rgba(250, 237, 235, 1);
+    background-size: contain;
+    margin: auto;
+    padding: 10px 50px 20px 60px;
+    width: 80%;
+
+}
+
+.flex1 {
+    display: flex;
+    border: 2px red solid;
+    
+}
+
+.flex2 {
+    background-color: rgb(247, 228, 211);
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin: 0 0 0 150px;
+    font-style: italic;
+    box-shadow: 3px 3px 3px 3px rgb(109, 107, 107);
+    border-radius: 15px;
+    padding: 0 15px 10px 20px;
+}
+
+.flex2 > h2 {
+    margin: 10px 0 0 0px;
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+h2, h3 {
+    margin-top: 50px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul > li {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+img {
+    width: 700px;
+    
+}
+
+ol > li {
+    margin-top: 15px;
+    
+}
